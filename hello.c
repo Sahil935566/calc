@@ -14,7 +14,15 @@ switch (ch){
 		break;
 	case '-':
 		printf("the sub of a and b %d",a-b);
-                break; 
+                break;
+	case '*':
+		printf("the multiply of a and b %d",a*b);
+		break;
+	case '/':
+		printf("the divison of a and b %d", a/b);
+                break;
+	default :
+		printf("error!");
 }
 return 0;
 }
