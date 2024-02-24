@@ -23,7 +23,7 @@ switch(ch){
 		printf("%d",a/b);
 		break;
 	default :
-		printif("erroR");
+		printf("erroR");
 		break;
 
 =======
@@ -34,14 +34,14 @@ switch (ch){
 	case '-':
 		printf("the sub of a and b %d",a-b);
                 break;
-	//`case '*':
+	case '*':
 		printf("the multiply of a and b %d",a*b);
-	//	break;
-	//case '/':
-		//printf("the divison of a and b %d", a/b);
-                //break;
-	//default :
-		//printf("error!");
+		break;
+	case '/':
+		printf("the divison of a and b %d", a/b);
+                break;
+	default :
+		printf("error!");
 >>>>>>> addsub
 }
 return 0;
